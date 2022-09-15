@@ -1,0 +1,260 @@
+.cuerpo {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.cuerpo {
+    width: 100%;
+    background-color: #ececec;
+    font-family: "Roboto";
+}
+
+.tabla {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+.contenedor {
+
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.encabezado {
+    padding: 1px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: inherit;
+}
+
+.panel>.encabezado {
+    background-image: none;
+    background-color: #fbc804;
+    color: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-width: 0;
+    border-bottom: 0;
+    border-top: 1px solid #ddd;
+}
+
+
+.titulo {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: inherit;
+    font-family: "Roboto";
+
+}
+
+.panel>.titulo {
+    background-image: none;
+    background-color: #fbc804;
+    color: white;
+}
+
+.tabla {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+div, footer {
+    display: block;
+}
+
+.filaDelCuadrado {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 30px;
+}
+
+.filaDelCuadrado:after {
+    clear: both;
+}
+
+.filaDelCuadrado:before,
+.filaDelCuadrado:after,
+.posicionCuerpo:before,
+.posicionCuerpo:after {
+    display: table;
+    content: " ";
+}
+
+.posicionCuerpo:after {
+    clear: both;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.cuadroColorVerde {
+    background-color: #05be6a;
+    color: #ffffff;
+}
+
+.letra {
+    position: relative;
+    float: left;
+    display: block;
+    float: none;
+    width: 90%;
+    float: none;
+    height: 48px;
+    padding: auto;
+    font-size: 18px;
+    line-height: 2.6;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+}
+
+.cuadroColorCeleste{
+    color: #fff;
+    background-color: #5bc0de;
+}
+
+
+.letraDeDato > .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.cuadroAncho {
+    display: block;
+    width: 100%;
+}
+
+.columnaInicial,
+.columnaFinal {
+    position: center;
+    min-height: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    /*centrar al medio*/
+    margin: 0 auto;
+}
+
+.columnaInicial {
+    width: 47%;
+}
+
+.columnaFinal {
+    width: 47%;
+}
+
+.justificarTexto {
+    text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.centrarTexto {
+    text-align: center;
+}
+
+.text-17 {
+    font-size: 17px;
+}
+
+.posicionCuerpo {
+    padding: 15px;
+
+    border-bottom-color: #d6e9c6;
+}
+
+
+
+.input[class*="col-"] {
+    float: none;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.input .cuadroDeDato {
+    position: relative;
+    z-index: 2;
+    float: left;
+  
+    margin-bottom: 0;
+}
+
+.input {
+    vertical-align: middle;
+    width: auto;
+    float: none;
+    margin-left: 5px;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    width: 100%;
+}
+
+.cuadroDeDato {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.encabezadoDePie {
+    position: absolute;
+    left: 0;
+    flex: none;
+    width: 100%;
+    color: #000000;
+} 
+
+
