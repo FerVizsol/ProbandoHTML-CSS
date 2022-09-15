@@ -1,0 +1,150 @@
+nav
+{
+	background-color: lightgreen;
+	height: 80px;
+}
+#HeaderText
+{
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+	display: inline-block;
+	margin: 5px;
+	margin-left: 5%;
+}
+#HeaderTextright
+{
+	float: right;
+	width: 10em;
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+	margin-top: 0.5%;
+}
+.BarraAmarilla
+{
+	margin: auto;
+	background-color: yellow;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 4%;
+}
+#TextoMenuAmarillo-MenuMesaDePartes
+{
+	display: inline-block;
+	margin-left: 5%;
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+#TextoMenuAmarillo-NombreDeUsuario
+{
+	display: inline-block;
+	float: right;
+	margin-right: 5%;
+	font-family: sans-serif;
+	font-size: 1rem;
+}
+.GridBotones
+{
+	display: grid;
+	height: 400px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	grid-template-rows: 50% 50%;
+	grid-template-columns: 33% 33% 33% ;
+}
+.Botones
+	{
+		background-color: rgb(227,227,227);
+		border: 1px solid black;
+
+	}
+.ImageBoton
+{
+	margin-top: 10%;
+	margin-left: 28%;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	width: 50%;
+	height: 50%;
+}
+.texto-Botones
+{
+	display: block;
+	text-align: center;
+	font-family: 'Passion One',sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+}
+.DescargarManual
+{
+	margin-top: 5vh;
+	margin-left: 25vw;
+	margin-right: 30vw;
+	background-color: green;
+	border-radius: 2px;
+}
+#BotonDescarga
+{
+	border: none;
+	display: block;
+	background-color: green;
+	border-radius: 2px;
+	width: 100%;
+	height: 8vh;
+	padding: none;
+	font-family: sans-serif;
+	font-size: 1rem;
+	color: white;
+	font-weight: bold;
+
+}
+footer
+{
+	margin-left: 32%;
+	margin-right: 32%;
+}
+
+@media only screen and (max-width: 660px)
+{ 
+	nav{
+		display: inline-block;
+		height: auto;
+		width: 100%;
+	}
+	.BarraAmarilla
+	{
+		display: inline-block;
+		background-color: yellow;
+		margin-right: 20%;
+		margin-left: 25%;
+		margin-top: 4%;
+	}	
+	#HeaderTextright{
+		margin-left: 15%;
+	}
+	#TextoMenuAmarillo-MenuMesaDePartes
+	{
+	display: block;
+	text-align: center;
+	}
+	#TextoMenuAmarillo-NombreDeUsuario
+	{
+	display: block;
+	margin-left: 3%;
+	margin-right: 7%;
+	text-align: center;
+	}
+	div{
+		display: inline-block;
+	}
+	footer{
+		margin: auto;
+
+	}
+	
+
+
+}
