@@ -1,0 +1,89 @@
+body
+{
+	background-image: url("images/bckgrnd.jpg");
+	background-size: cover;
+
+}
+.LoginBox
+{
+    border-width: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 3.5%;
+    margin-bottom: 18%;
+    left: 0;
+    right: 0;
+    width: 355px;
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+#logologin
+{
+	height: 80px;
+	width: 270px;
+}
+#textcentro
+{
+    text-align: center;
+}
+.logincabeza
+{
+    padding-bottom: 30px;
+}
+#texto
+{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 8px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#ingresarboton
+{
+    background-color: green;
+    border: 2px;
+    border-radius: 4px;
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+#cronogramaboton
+{
+    background-color: orange;
+    border: 2px;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+#bottomloginbox
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#ayuda
+{
+    margin-left: 25px;
+}
+#generartext
+{
+    margin-top: 30px;
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
